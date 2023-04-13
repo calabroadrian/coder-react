@@ -1,0 +1,15 @@
+.Controls {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.AgregarCarrito {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-right: 10px;
+    margin-left: 10px;
+}
