@@ -10,10 +10,10 @@ const products = [
     },
     {
         id: 2,
-        name: 'Tablet S23',
+        name: 'Galaxy Tab S8 Ultra',
         price: 350000,
         category: 'tablet',
-        img:'https://samsungar.vtexassets.com/arquivos/ids/186614-320-332/1.png?v=638108555892100000',
+        img:'https://samsungar.vtexassets.com/arquivos/ids/181429-800-auto?width=800&height=auto&aspect=true',
         stock: 200,
         description: 'Tablet s23'
     },
@@ -22,7 +22,7 @@ const products = [
         name: 'Notebok',
         price: 400000,
         category: 'notebook',
-        img:'https://samsungar.vtexassets.com/arquivos/ids/186651-320-332/1-1.png?v=638099377315500000',
+        img:'https://i.ebayimg.com/images/g/lMoAAOSwJOVhcTLn/s-l500.jpg',
         stock: 200,
         description: 'Notebook Samsung'
     }
@@ -40,7 +40,7 @@ export const getProducts = () => {
 export const getProductsById = (productId) => { 
     return new Promise((resolve) => {
         setTimeout(() => {
-            resolve(products.filter(prod => prod.id === productId))
+            resolve(products.find(prod => prod.id === parseInt(productId)))
             console.log(productId)
         }, 500)
     })
