@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import './NavBar.css';
+=======
+import './Item.css';
+>>>>>>> 25d20cd4b23936cace6c769c25eaae6e82ba5cc6
 import { Link } from 'react-router-dom';
 
 const Item = ({id, name, img, price, stock}) => {
