@@ -1,0 +1,10 @@
+article.CardItem {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+}
+
+img.ItemImg {
+    max-width: 30%;
+}
