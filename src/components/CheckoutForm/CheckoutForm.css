@@ -1,0 +1,41 @@
+.buttonCrearOrden {
+    width: 100%;
+    padding-top: 20p;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.ContainerFormCheckout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Input {
+    text-transform: capitalize;
+    width: 150%;
+}
+
+.ImputEmail {
+    text-transform: lowercase;
+}
+
+.FormCheckout {
+    display: flex;
+    flex-direction: column;
+}
+
+.Label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Carrusel {
+    width: 139px;
+    margin-top: 50px;
+}
+
+.carousel-item {
+    background-size: cover;
+}
